@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Teste 1 - Complexo",
+      "setup": "make",
+      "run": "./bin/complexo 1 2 3 4 +",
+      "input": "",
+      "output": "4+6i",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 12.5
+    },
+    {
+      "name": "Teste 2 - Complexo",
+      "setup": "make",
+      "run": "./bin/complexo 9 9 -4 -4 +",
+      "input": "",
+      "output": "5+5i",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 12.5
+    },
+    {
+      "name": "Teste 3 - Complexo",
+      "setup": "make",
+      "run": "./bin/complexo 9 9 -4 -4 -",
+      "input": "",
+      "output": "13+13i",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 12.5
+    },
+    {
+      "name": "Teste 4 - Complexo",
+      "setup": "make",
+      "run": "./bin/complexo -2 3 4 -2 -",
+      "input": "",
+      "output": "-6+5i",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 12.5
+    },
+    {
+      "name": "Teste 5 - Complexo",
+      "setup": "make",
+      "run": "./bin/complexo -7 2 3 -5 '*'",
+      "input": "",
+      "output": "-11+41i",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 12.5
+    },
+    {
+      "name": "Teste 6 - Complexo",
+      "setup": "make",
+      "run": "./bin/complexo 3 4 -1 -5 '*'",
+      "input": "",
+      "output": "17-19i",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 12.5
+    },
+    {
+      "name": "Teste 7 - Complexo",
+      "setup": "make",
+      "run": "./bin/complexo -1.1 2.8 4.5 -3.1 '|'",
+      "input": "",
+      "output": "3.00;5.46",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 12.5
+    },
+    {
+      "name": "Teste 8 - Complexo",
+      "setup": "make",
+      "run": "./bin/complexo 2 3 -3 -8 '|'",
+      "input": "",
+      "output": "3.60;8.54",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 12.5
+    }    
+  ]
+}
