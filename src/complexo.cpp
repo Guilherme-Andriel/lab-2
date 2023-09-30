@@ -46,8 +46,6 @@ int main(int argc, char *argv[]) {
 
 		std::cout << resultado;
 
-    }else{
-    	std::cout << "Operação inválida!" << std::endl;
     }
 
 
