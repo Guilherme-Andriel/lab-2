@@ -80,7 +80,7 @@
 	   		if(c.getImag() < 0){
 	   			 o << c.getReal() << c.getImag() << "i";
 	   		}else{
-	   			 o << c.getReal() << c.getOperacao() << c.getImag() << "i";
+	   			 o << c.getReal() <<"+"<< c.getImag() << "i";
 	   		}
 	   	}else if(c.getOperacao() == '*'){
 	   		if(c.getImag() < 0){
